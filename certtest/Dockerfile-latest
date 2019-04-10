@@ -1,6 +1,5 @@
 FROM mcr.microsoft.com/dotnet/core/runtime:2.2
 WORKDIR /app
 
-COPY /bin/debug/netcoreapp2.1 .
-COPY /test.pfx .
+COPY /bin/Debug/netcoreapp2.1 .
 ENTRYPOINT ["dotnet", "certtest.dll"]

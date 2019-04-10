@@ -20,7 +20,7 @@ namespace certtest
                 return;
             }
 
-            Console.WriteLine($"Hello {cert.FriendlyName}!");
+            Console.WriteLine($"Hello {cert.Subject}!");
         }
     }
 }
