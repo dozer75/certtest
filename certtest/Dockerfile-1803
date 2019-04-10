@@ -1,0 +1,6 @@
+FROM mcr.microsoft.com/dotnet/core/runtime:2.1-nanoserver-1803
+WORKDIR /app
+
+COPY /bin/debug/netcoreapp2.1 .
+COPY /test.pfx .
+ENTRYPOINT ["dotnet", "certtest.dll"]
