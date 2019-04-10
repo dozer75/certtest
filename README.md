@@ -1,2 +1,2 @@
 # certtest
-A small test of file certificate in gainst different dotnet core docker images
+A small test of file certificate in against different dotnet core docker images
